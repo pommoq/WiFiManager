@@ -568,7 +568,7 @@ void WiFiManager::handleWifi(boolean scan) {
 
     page += "<br/>";
   }
-
+  page += FPSTR(HTTP_FORM_FIX_IP);
   page += FPSTR(HTTP_FORM_END);
   page += FPSTR(HTTP_SCAN_LINK);
 
